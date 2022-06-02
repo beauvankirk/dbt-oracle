@@ -24,6 +24,7 @@ models:
         tests:
           - not_null
           - unique
+          - dbt_constraints.primary_key
       - name: gender
         tests:
           - accepted_values:
@@ -35,5 +36,6 @@ models:
           - relationships:
               to: ref('countries')
               field: country_id
+
 
 
