@@ -24,7 +24,7 @@ with open('README.md') as readme_file:
 
 requirements = [
         "dbt-core==0.21.1; python_version < '3.7'",
-        "dbt-core==1.0.7; python_version >= '3.7'",
+        "dbt-core==1.1.0; python_version >= '3.7'",
         "cx_Oracle==8.3.0",
         "dataclasses; python_version < '3.7'"
 ]
